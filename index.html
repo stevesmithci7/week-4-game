@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <title>CrystalsCollector!</title>
+</head>
+
+<body>
+
+    <body>
+        <div class="wrapper">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-6 text-center">
+                <header>
+                    <h1>CrystalsCollector!</h1>
+                </header>
+                <div class="instructions">
+                    <p>You will be given a random number at the start of the game.</p>
+                    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                        total score.</p>
+                    <p>You will win the game by matching your total score to the random number. You lose the game if your total
+                        score goes above the random number.</p>
+                    <p>The value of each crystal is hidden to you until you click on it.</p>
+                    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+                </div>
+
+                <div id="random-number" class="col-md-6">
+
+                </div>
+
+                <div id="wins-losses" class="col-md-6">
+
+                </div>
+
+                <div id="crystals">
+                    <img id="blue" src="assets\images\blue.jpg" height="100" width="100">
+                    <img id="green" src="assets\images\green.jpg" height="100" width="100">
+                    <img id="purple" src="assets\images\purple.jpg" height="100" width="100">
+                    <img id="red" src="assets\images\red.jpg" height="100" width="100">
+                </div>
+
+                <div id="total-score">
+
+
+                </div>
+
+                <div class="col-md-3">
+
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="assets/javascript/game.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
